@@ -1,0 +1,96 @@
+
+.navbar-header {
+    width: 100%;
+    height: 50px;
+    background: #1e90ff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#logoCitySport {
+    /* width: 140px;
+    margin-right: 45px; */
+    max-width: 50%;
+    height: auto;
+    width: 5em;
+    margin-right: 1em;
+      
+      }
+      
+
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-left ul li {
+    width: 28px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.nav-user-icon {
+    margin-left: 30px;
+}
+
+.search-box {
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search-box li {
+    width: 18px;
+}
+
+.search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.pps {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+}
+
+.pps .fas {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+
+.navbar-header {
+    background: #4ea33e; 
+}
+
+.logo img {
+    filter: brightness(0) invert(1); 
+}
+
+.nav-left ul li {
+    color: #fff; 
+}
+
+.nav-user-icon,
+.pps .fas {
+    color: #fff; 
+}

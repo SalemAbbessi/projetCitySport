@@ -1,0 +1,74 @@
+
+
+
+/* .editprofile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    width: 50%;
+    position: relative;
+}
+.editinput 
+{
+    display: flex;
+    padding:10px;
+    margin:10px ;
+    border:1px solid yellow;
+} */
+.editprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eaeaea; /* Couleur de la bordure */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Légère ombre */
+    width: 50%;
+    max-width: 600px; /* Largeur maximale */
+    margin: 20px auto; /* Centrer sur la page */
+    padding: 20px;
+}
+
+.editinput {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0; /* Marge haut et bas */
+}
+
+.editinput label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.editinput input,
+.editinput select {
+    padding: 10px;
+    border: 1px solid #ccc; /* Couleur de la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.editinput textarea {
+    padding: 10px;
+    border: 1px solid #ccc; /* Couleur de la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    margin-bottom: 10px;
+    width: 100%;
+    resize: vertical; /* Autoriser le redimensionnement vertical uniquement */
+}
+
+.editinput button {
+    padding: 10px;
+    background-color: #4CAF50; /* Couleur de fond verte */
+    color: #fff; /* Couleur du texte blanc */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editinput button:hover {
+    background-color: #45a049; /* Couleur de survol légèrement plus sombre */
+}
+
+/* Ajoutez le reste des styles ici */

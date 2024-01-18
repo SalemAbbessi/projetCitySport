@@ -1,0 +1,15 @@
+.editprofile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    width: 50%;
+    position: relative;
+}
+.editinput 
+{
+    display: flex;
+    padding:10px;
+    margin:10px ;
+    border:1px solid yellow;
+}

@@ -1,0 +1,50 @@
+td {
+    text-align: center;
+    padding: 0px;
+    width: 25%;
+    margin-left: 50px
+  }
+  tr {
+    background-color: #f2f2f2;
+  }
+  .btn1 {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 6px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .btn2 {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .btn5 {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  td {
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+  }
+  .actions 
+  {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .btn5 
+  {padding: 2px;
+  margin: 2px;}
